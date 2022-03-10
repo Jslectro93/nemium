@@ -241,11 +241,35 @@ main hr {
 
 .form input[type="submit"] {
     background-color: #157EFB;
-    border: none;
+    /* border: none; */
+    border: 1px solid #157EFB;
+}
+
+footer {
+    background-color: var(--white-30);
+    inline-size: 100%;
+    block-size: 174px; 
+}
+
+.footer-content {
+    inline-size: 320px;
+    inset-block-start: 50px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    color: #251F24;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.debug {
+    outline: 1px solid red;
 }
 
 @media screen and (min-width: 1366px) {
-
     .hero {
         block-size: 350px;
     }
@@ -273,4 +297,5 @@ main hr {
         font-size: 60px;
         margin-block-start: 64px;
     }
+
 }
