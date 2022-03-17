@@ -41,6 +41,7 @@ body {
     margin: 0;
 }
 
+
 .hero {
     block-size: 50px;
     background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
@@ -129,6 +130,24 @@ pre {
     font-size: 16px;
 }
 
+pre::-webkit-scrollbar {
+    inline-size: 12px;
+    block-size: 6px;
+}
+
+/* pre::-webkit-scrollbar-track {
+    background:#5551ff; */
+    /* color of the tracking area
+} */
+
+pre::-webkit-scrollbar-thumb {
+    background-color: #5551ff;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 1px solid #abaaf6;
+    /* creates padding around scroll thumb */
+}
 p {
     color: var(--white-20);
     font-weight: normal;
@@ -249,7 +268,7 @@ main hr {
 footer {
     background-color: var(--white-30);
     inline-size: 100%;
-    block-size: 174px; 
+    block-size: 174px;
 }
 
 .footer-content {
